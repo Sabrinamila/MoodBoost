@@ -13,6 +13,16 @@
 		36D919942A3A3989001F91EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36D919932A3A3989001F91EE /* Preview Assets.xcassets */; };
 		36D919962A3A3989001F91EE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D919952A3A3989001F91EE /* Persistence.swift */; };
 		36D919992A3A3989001F91EE /* MoodBoost.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36D919972A3A3989001F91EE /* MoodBoost.xcdatamodeld */; };
+		36D919A02A3A42B7001F91EE /* EmotionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D9199F2A3A42B7001F91EE /* EmotionPage.swift */; };
+		36D919A22A3A42F3001F91EE /* AnxiousPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D919A12A3A42F2001F91EE /* AnxiousPage.swift */; };
+		36D919A42A3A430F001F91EE /* SadPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D919A32A3A430F001F91EE /* SadPage.swift */; };
+		36D919A62A3A4335001F91EE /* AngryPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D919A52A3A4335001F91EE /* AngryPage.swift */; };
+		36D919A82A3A43EC001F91EE /* AnxiousJournal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D919A72A3A43EC001F91EE /* AnxiousJournal.swift */; };
+		36D919AA2A3A4402001F91EE /* SadJournal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D919A92A3A4402001F91EE /* SadJournal.swift */; };
+		36D919AC2A3A4416001F91EE /* AngryJournal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D919AB2A3A4416001F91EE /* AngryJournal.swift */; };
+		36D919AE2A3A4459001F91EE /* AnxiousResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D919AD2A3A4459001F91EE /* AnxiousResources.swift */; };
+		36D919B02A3A4475001F91EE /* SadResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D919AF2A3A4475001F91EE /* SadResources.swift */; };
+		36D919B22A3A44AA001F91EE /* AngryResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D919B12A3A44AA001F91EE /* AngryResources.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +33,16 @@
 		36D919932A3A3989001F91EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		36D919952A3A3989001F91EE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		36D919982A3A3989001F91EE /* MoodBoost.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoodBoost.xcdatamodel; sourceTree = "<group>"; };
+		36D9199F2A3A42B7001F91EE /* EmotionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionPage.swift; sourceTree = "<group>"; };
+		36D919A12A3A42F2001F91EE /* AnxiousPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnxiousPage.swift; sourceTree = "<group>"; };
+		36D919A32A3A430F001F91EE /* SadPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SadPage.swift; sourceTree = "<group>"; };
+		36D919A52A3A4335001F91EE /* AngryPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngryPage.swift; sourceTree = "<group>"; };
+		36D919A72A3A43EC001F91EE /* AnxiousJournal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnxiousJournal.swift; sourceTree = "<group>"; };
+		36D919A92A3A4402001F91EE /* SadJournal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SadJournal.swift; sourceTree = "<group>"; };
+		36D919AB2A3A4416001F91EE /* AngryJournal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngryJournal.swift; sourceTree = "<group>"; };
+		36D919AD2A3A4459001F91EE /* AnxiousResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnxiousResources.swift; sourceTree = "<group>"; };
+		36D919AF2A3A4475001F91EE /* SadResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SadResources.swift; sourceTree = "<group>"; };
+		36D919B12A3A44AA001F91EE /* AngryResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngryResources.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +77,16 @@
 			children = (
 				36D9198C2A3A3986001F91EE /* MoodBoostApp.swift */,
 				36D9198E2A3A3986001F91EE /* ContentView.swift */,
+				36D9199F2A3A42B7001F91EE /* EmotionPage.swift */,
+				36D919A12A3A42F2001F91EE /* AnxiousPage.swift */,
+				36D919A72A3A43EC001F91EE /* AnxiousJournal.swift */,
+				36D919AD2A3A4459001F91EE /* AnxiousResources.swift */,
+				36D919A32A3A430F001F91EE /* SadPage.swift */,
+				36D919A92A3A4402001F91EE /* SadJournal.swift */,
+				36D919AF2A3A4475001F91EE /* SadResources.swift */,
+				36D919A52A3A4335001F91EE /* AngryPage.swift */,
+				36D919AB2A3A4416001F91EE /* AngryJournal.swift */,
+				36D919B12A3A44AA001F91EE /* AngryResources.swift */,
 				36D919902A3A3989001F91EE /* Assets.xcassets */,
 				36D919952A3A3989001F91EE /* Persistence.swift */,
 				36D919972A3A3989001F91EE /* MoodBoost.xcdatamodeld */,
@@ -143,10 +173,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36D919A62A3A4335001F91EE /* AngryPage.swift in Sources */,
+				36D919A02A3A42B7001F91EE /* EmotionPage.swift in Sources */,
+				36D919A42A3A430F001F91EE /* SadPage.swift in Sources */,
 				36D919992A3A3989001F91EE /* MoodBoost.xcdatamodeld in Sources */,
 				36D919962A3A3989001F91EE /* Persistence.swift in Sources */,
+				36D919B22A3A44AA001F91EE /* AngryResources.swift in Sources */,
+				36D919A82A3A43EC001F91EE /* AnxiousJournal.swift in Sources */,
 				36D9198F2A3A3986001F91EE /* ContentView.swift in Sources */,
+				36D919B02A3A4475001F91EE /* SadResources.swift in Sources */,
+				36D919A22A3A42F3001F91EE /* AnxiousPage.swift in Sources */,
+				36D919AA2A3A4402001F91EE /* SadJournal.swift in Sources */,
 				36D9198D2A3A3986001F91EE /* MoodBoostApp.swift in Sources */,
+				36D919AC2A3A4416001F91EE /* AngryJournal.swift in Sources */,
+				36D919AE2A3A4459001F91EE /* AnxiousResources.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
