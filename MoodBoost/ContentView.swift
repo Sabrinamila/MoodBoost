@@ -80,14 +80,53 @@
 //    return formatter
 //}()
 //
-//struct ContentView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
-//    }
-//}
 
 
 import SwiftUI
 
-stru
+struct ContentView: View {
+    
+    var body: some View{
 
+        NavigationStack {
+            ZStack {
+                Color("beige")
+                    .ignoresSafeArea()
+                
+                VStack {
+                    
+                    Image("logo")
+                        .resizable(resizingMode: .stretch)
+                        .aspectRatio(contentMode: .fit)
+                        
+                    
+                        .toolbar {
+                            ToolbarItemGroup(placement: .status) {
+                                NavigationLink(destination: EmotionPage()) {
+                                
+                                    Button("Let's get started!") {
+                                        
+                                    }
+                                    .padding(.top)
+                                    .font(.title2)
+                                    .buttonStyle(.borderedProminent)
+                                    .tint(Color(hue: 0.399, saturation: 0.979, brightness: 0.467))
+                                }
+                            }
+                        }
+                        
+                }
+            }
+        }
+        
+        
+  
+    }
+    
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+    }
+}
