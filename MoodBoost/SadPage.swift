@@ -9,7 +9,24 @@ import SwiftUI
 
 struct SadPage: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Color("beige")
+                .ignoresSafeArea()
+            
+            VStack {
+                Text("Welcome to the SAD Page")
+                    .foregroundColor(Color.blue)
+                    .font(.title)
+                    .fontWeight(.light)
+                    .foregroundColor(Color(hue: 0.409, saturation: 0.973, brightness: 0.421))
+                    .italic()
+
+                
+                Spacer()
+                Spacer()
+                Spacer()
+            }
+        }
     }
 }
 

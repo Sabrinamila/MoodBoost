@@ -8,8 +8,27 @@
 import SwiftUI
 
 struct AngryPage: View {
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Color("beige")
+                .ignoresSafeArea()
+            
+            VStack {
+                Text("Welcome to the ANGRY Page")
+                    .foregroundColor(Color.red)
+                    .font(.title)
+                    .fontWeight(.light)
+                    .italic()
+                
+                Spacer()
+                Spacer()
+                Spacer()
+                
+                
+            }
+        }
+        
     }
 }
 
