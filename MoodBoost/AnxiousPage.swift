@@ -50,28 +50,8 @@ struct AnxiousPage: View {
                                 
                         }
                         
-                        
-                        
-//                        .toolbar {
-//                            ToolbarItemGroup(placement: .status) {
-//                                NavigationLink(destination: AnxiousJournal()) {
-//                                    Text("Journal")
-//                                        .font(.title)
-//                                        .fontWeight(.light)
-//                                        .foregroundColor(Color.blue)
-//                                        .multilineTextAlignment(.trailing)
-//                                        .padding()
-//
-//                                }
-//
-//                            }
-//                        }
-                        
                     }
                     Spacer()
-
-                    
-                    
                 }
             }
         }
