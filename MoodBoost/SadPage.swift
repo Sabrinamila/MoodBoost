@@ -25,7 +25,7 @@ struct SadPage: View {
                     //this spacer keeps title at top of page
                     VStack {
                         
-                        Link("Personalized Spotify Playlist For You ", destination: URL(string: "https://open.spotify.com/playlist/0FQe8y7WfhnC1FhCHIbELX?si=55f3aacf27ec4d18&pt=dabdfeebd668c45d3980dba40c5f3f31")!)
+                        Link("Personalized Spotify Playlist For You ", destination: URL(string: "https://open.spotify.com/playlist/52wybenZDmyk5KyZ4daWfv?si=hKR4wDvDTeqh4V_kIbM5sg&pt=3ca17eac2f3822334b7203119d5af196")!)
 
                         
     

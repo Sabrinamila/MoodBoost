@@ -12,8 +12,8 @@ struct AnxiousPage: View {
         ZStack {
             Color("beige")
                 .ignoresSafeArea()
+            
             NavigationView {
-                
                 VStack {
                     Text("Welcome to the ANXIOUS Page")
                         .foregroundColor(Color.orange)
