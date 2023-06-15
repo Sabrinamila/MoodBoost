@@ -17,7 +17,7 @@ struct EmotionPage: View {
             
             VStack {
                 Text("How Are You Feeling Today?")
-                    .font(.custom("Merriweather-Regular", size: 46))
+                    .font(.title)
                     .fontWeight(.light)
                     .foregroundColor(Color(hue: 0.409, saturation: 0.973, brightness: 0.421))
                     .italic()
