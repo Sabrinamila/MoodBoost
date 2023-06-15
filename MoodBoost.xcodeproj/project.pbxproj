@@ -23,6 +23,14 @@
 		36D919942A3A3989001F91EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36D919932A3A3989001F91EE /* Preview Assets.xcassets */; };
 		36D919962A3A3989001F91EE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D919952A3A3989001F91EE /* Persistence.swift */; };
 		36D919992A3A3989001F91EE /* MoodBoost.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36D919972A3A3989001F91EE /* MoodBoost.xcdatamodeld */; };
+		5518499F2A3B9C36007BA021 /* Merriweather-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5518499E2A3B9C35007BA021 /* Merriweather-Black.ttf */; };
+		551849A12A3B9C51007BA021 /* Merriweather-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 551849A02A3B9C51007BA021 /* Merriweather-Regular.ttf */; };
+		551849A32A3B9C68007BA021 /* Merriweather-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 551849A22A3B9C67007BA021 /* Merriweather-Light.ttf */; };
+		551849A52A3B9C7C007BA021 /* Merriweather-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 551849A42A3B9C7C007BA021 /* Merriweather-BlackItalic.ttf */; };
+		551849A72A3B9C90007BA021 /* Merriweather-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 551849A62A3B9C90007BA021 /* Merriweather-Bold.ttf */; };
+		551849A92A3B9CB2007BA021 /* Merriweather-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 551849A82A3B9CB2007BA021 /* Merriweather-BoldItalic.ttf */; };
+		551849AB2A3B9CBB007BA021 /* Merriweather-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 551849AA2A3B9CBB007BA021 /* Merriweather-Italic.ttf */; };
+		551849AD2A3B9CC8007BA021 /* Merriweather-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 551849AC2A3B9CC8007BA021 /* Merriweather-LightItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +51,15 @@
 		36D919932A3A3989001F91EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		36D919952A3A3989001F91EE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		36D919982A3A3989001F91EE /* MoodBoost.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoodBoost.xcdatamodel; sourceTree = "<group>"; };
+		5518499E2A3B9C35007BA021 /* Merriweather-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Black.ttf"; sourceTree = "<group>"; };
+		551849A02A3B9C51007BA021 /* Merriweather-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Regular.ttf"; sourceTree = "<group>"; };
+		551849A22A3B9C67007BA021 /* Merriweather-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Light.ttf"; sourceTree = "<group>"; };
+		551849A42A3B9C7C007BA021 /* Merriweather-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-BlackItalic.ttf"; sourceTree = "<group>"; };
+		551849A62A3B9C90007BA021 /* Merriweather-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Bold.ttf"; sourceTree = "<group>"; };
+		551849A82A3B9CB2007BA021 /* Merriweather-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-BoldItalic.ttf"; sourceTree = "<group>"; };
+		551849AA2A3B9CBB007BA021 /* Merriweather-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Italic.ttf"; sourceTree = "<group>"; };
+		551849AC2A3B9CC8007BA021 /* Merriweather-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-LightItalic.ttf"; sourceTree = "<group>"; };
+		551849AE2A3B9D4B007BA021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +92,7 @@
 		36D9198B2A3A3986001F91EE /* MoodBoost */ = {
 			isa = PBXGroup;
 			children = (
+				551849AE2A3B9D4B007BA021 /* Info.plist */,
 				36D9198C2A3A3986001F91EE /* MoodBoostApp.swift */,
 				36D9198E2A3A3986001F91EE /* ContentView.swift */,
 				1593C3DD2A3A55A600BD81FA /* EmotionPage.swift */,
@@ -90,6 +108,7 @@
 				36D919902A3A3989001F91EE /* Assets.xcassets */,
 				36D919952A3A3989001F91EE /* Persistence.swift */,
 				36D919972A3A3989001F91EE /* MoodBoost.xcdatamodeld */,
+				5518499D2A3B9C04007BA021 /* Fonts */,
 				36D919922A3A3989001F91EE /* Preview Content */,
 			);
 			path = MoodBoost;
@@ -101,6 +120,21 @@
 				36D919932A3A3989001F91EE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5518499D2A3B9C04007BA021 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5518499E2A3B9C35007BA021 /* Merriweather-Black.ttf */,
+				551849A82A3B9CB2007BA021 /* Merriweather-BoldItalic.ttf */,
+				551849A02A3B9C51007BA021 /* Merriweather-Regular.ttf */,
+				551849AC2A3B9CC8007BA021 /* Merriweather-LightItalic.ttf */,
+				551849AA2A3B9CBB007BA021 /* Merriweather-Italic.ttf */,
+				551849A62A3B9C90007BA021 /* Merriweather-Bold.ttf */,
+				551849A42A3B9C7C007BA021 /* Merriweather-BlackItalic.ttf */,
+				551849A22A3B9C67007BA021 /* Merriweather-Light.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,8 +195,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				551849AD2A3B9CC8007BA021 /* Merriweather-LightItalic.ttf in Resources */,
+				551849A72A3B9C90007BA021 /* Merriweather-Bold.ttf in Resources */,
 				36D919942A3A3989001F91EE /* Preview Assets.xcassets in Resources */,
+				551849A92A3B9CB2007BA021 /* Merriweather-BoldItalic.ttf in Resources */,
+				551849A52A3B9C7C007BA021 /* Merriweather-BlackItalic.ttf in Resources */,
+				551849AB2A3B9CBB007BA021 /* Merriweather-Italic.ttf in Resources */,
 				36D919912A3A3989001F91EE /* Assets.xcassets in Resources */,
+				551849A12A3B9C51007BA021 /* Merriweather-Regular.ttf in Resources */,
+				5518499F2A3B9C36007BA021 /* Merriweather-Black.ttf in Resources */,
+				551849A32A3B9C68007BA021 /* Merriweather-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +360,8 @@
 				DEVELOPMENT_TEAM = 4278FHK8V5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoodBoost/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -347,6 +391,8 @@
 				DEVELOPMENT_TEAM = 4278FHK8V5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoodBoost/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

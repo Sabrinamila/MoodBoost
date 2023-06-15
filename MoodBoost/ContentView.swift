@@ -121,7 +121,7 @@ struct ContentView: View {
                         textTitle = "Let's get started, \(name)!"
                     }
                     .padding(.top)
-                    .font(.title2)
+                    .font(.title)
                     .buttonStyle(.borderedProminent)
                     .tint(Color(hue: 0.399, saturation: 0.979, brightness: 0.467))
                     

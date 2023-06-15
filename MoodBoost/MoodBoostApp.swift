@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-@main
+//@main
 struct MoodBoostApp: App {
     let persistenceController = PersistenceController.shared
 
