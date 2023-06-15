@@ -9,7 +9,14 @@ import SwiftUI
 
 struct SadResources: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Color("beige")
+                .ignoresSafeArea()
+            
+            VStack {
+                Text("sad resources")
+            }
+        }
     }
 }
 
