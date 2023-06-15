@@ -30,7 +30,7 @@ struct AnxiousPage: View {
                         
     
                         
-                        NavigationLink(destination: AnxiousJournal()) {
+                        NavigationLink(destination: Journal()) {
                             Text("Journal")
                                 .font(.title)
                                 .fontWeight(.light)

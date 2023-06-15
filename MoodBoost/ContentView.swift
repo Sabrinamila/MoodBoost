@@ -89,6 +89,12 @@ struct ContentView: View {
     @State private var name = ""
     @State private var textTitle = "What is your name?"
     
+    @State private var entries: [Entry] = [
+        Entry(title: "Feeling Sad?", content: ""),
+        Entry(title: "Feeling Anxious?", content: ""),
+        Entry(title: "Feeling Angry?", content: "")
+    ]
+    
     var body: some View{
         
         NavigationStack {
