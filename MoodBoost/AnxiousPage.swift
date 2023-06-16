@@ -15,17 +15,26 @@ struct AnxiousPage: View {
             
             NavigationView {
                 VStack {
+                    Spacer()
                     Text("Welcome to the ANXIOUS Page")
-                        .foregroundColor(Color.orange)
-                        .font(.title)
-                        .fontWeight(.light)
+                        .foregroundColor(Color(hue: 0.357, saturation: 1.0, brightness: 0.414))
+                        .font(.title2)
+                        .fontWeight(.bold)
                         .foregroundColor(Color(hue: 0.409, saturation: 0.973, brightness: 0.421))
                         .italic()
+                    
+                    Image("1")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width:130)
+                        
                     Spacer()
                     //this spacer keeps title at top of page
                     VStack {
                         
-                        Link("Personalized Spotify Playlist For You ", destination: URL(string: "https://open.spotify.com/playlist/0FQe8y7WfhnC1FhCHIbELX?si=55f3aacf27ec4d18&pt=dabdfeebd668c45d3980dba40c5f3f31")!)
+                        Link("Personalized Spotify Playlist ", destination: URL(string: "https://open.spotify.com/playlist/0FQe8y7WfhnC1FhCHIbELX?si=55f3aacf27ec4d18&pt=dabdfeebd668c45d3980dba40c5f3f31")!)
+                            
+                            
 
                         
     
@@ -49,10 +58,16 @@ struct AnxiousPage: View {
                                 .padding()
                                 
                         }
+//                        Image("anxious")
+//                            .resizable()
+//                            .aspectRatio(contentMode: .fit)
+//                            .frame(width:100)
+                            
                         
                     }
                     Spacer()
                 }
+                .background(Color("beige")).ignoresSafeArea()
             }
         }
     }

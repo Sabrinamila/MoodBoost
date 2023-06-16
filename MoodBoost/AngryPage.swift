@@ -11,22 +11,26 @@ struct AngryPage: View {
     
     var body: some View {
         ZStack {
-            Color("beige")
-                .ignoresSafeArea()
             NavigationView {
-                
                 VStack {
+                    Spacer()
                     Text("Welcome to the ANGRY Page")
-                        .foregroundColor(Color.red)
+                        .foregroundColor(Color(hue: 0.425, saturation: 1.0, brightness: 0.352))
                         .font(.title)
-                        .fontWeight(.light)
+                        .fontWeight(.bold)
                         .foregroundColor(Color(hue: 0.409, saturation: 0.973, brightness: 0.421))
                         .italic()
+                    
+                    Image("2")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width:130)
+                    
                     Spacer()
                     //this spacer keeps title at top of page
                     VStack {
                         
-                        Link("Personalized Spotify Playlist For You ", destination: URL(string: "https://open.spotify.com/playlist/0LLxJpnTFNrrqFNohWBDjJ?si=8ba54053a2d246e4&pt=b80f79c9427b51f4d6bbea8142487ac9")!)
+                        Link("Personalized Spotify Playlist", destination: URL(string: "https://open.spotify.com/playlist/0LLxJpnTFNrrqFNohWBDjJ?si=8ba54053a2d246e4&pt=b80f79c9427b51f4d6bbea8142487ac9")!)
 
                         
     
@@ -51,9 +55,17 @@ struct AngryPage: View {
                                 
                         }
                         
+//                        Image("angry")
+//                            .resizable()
+//                            .aspectRatio(contentMode: .fit)
+//                            .frame(width:100)
+                        
+
+                        
                     }
                     Spacer()
                 }
+                .background(Color("beige")).ignoresSafeArea()
             }
         }
         
